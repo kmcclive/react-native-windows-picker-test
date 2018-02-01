@@ -1,0 +1,25 @@
+{
+  "name": "PickerTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "flow-bin": "^0.57.3",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-windows": "0.51.0-rc.1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.1.4",
+    "react-test-renderer": "16.0.0",
+    "rnpm-plugin-windows": "^0.2.8"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
